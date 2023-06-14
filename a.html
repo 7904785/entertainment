@@ -30,7 +30,6 @@ marquee.maq{
     height: 100%;
     top: 1%;
     color: #000;
-    overflow: hidden;
 }
 .maq2{
     position: fixed;
@@ -39,7 +38,6 @@ marquee.maq{
     height: 100%;
     top: 1%;
     color: #000;
-    overflow: hidden;
 }
 div.top{
     background-color: #333;
@@ -137,19 +135,20 @@ div.footer2 a.footerbtn {
         box-shadow: 0 50px rgb(0, 0, 0, 0.1);
     }
 }
-div.gost img.gost1{
-    width: 250px;
-    height: 250px;
-    margin-left: 40%;
-    margin-right: 40%;
+img.gost1{
+   height: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
 }
 @media screen and (max-width: 600px){
-    div.gost img.gost1{
-    width: 250px;
-    height: 250px;
-    margin-left: 20%;
-    margin-right: 20%;
-}
+    img.gost1{
+    height: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 div.gosttext p.gosttext1{
     background-color: #000;
@@ -159,8 +158,24 @@ div.gosttext p.gosttext1{
     </style>
 </head>
 <body>
- 
-
+    <marquee class="maq" direction="down">
+        <div id="image">
+          <img src="a.jpg" alt="" height="30px" width="30px">
+          <img src="b).png" alt="" height="30px" width="30px">
+          <img src="c.jpg" alt="" height="30px" width="30px">
+          <img src="d.jpg" alt="" height="30px" width="30px">
+          <img src="e.png" alt="" height="30px" width="30px">
+          <img src="f.jpg" alt="" height="30px" width="30px">
+          <img src="g.jpg" alt="" height="30px" width="30px">
+          <img src="a.jpg" alt="" height="30px" width="30px">
+          <img src="b).png" alt="" height="30px" width="30px">
+          <img src="c.jpg" alt="" height="30px" width="30px">
+          <img src="d.jpg" alt="" height="30px" width="30px">
+          <img src="e.png" alt="" height="30px" width="30px">
+          <img src="f.jpg" alt="" height="30px" width="30px">
+          <img src="g.jpg" alt="" height="30px" width="30px">
+        </div>
+    </marquee>
 <div class="top">
     <p class="kno">
         KNO
@@ -181,9 +196,7 @@ div.gosttext p.gosttext1{
 <marquee class="mar4" behavior="alternate" direction="left">
     😍 नया हे, फैला दो सभी ग्रुप्स में 😍
 </marquee>
-<div class="gost">
-    <img class="gost1" src="aryabhatta.png" align="center">
-</div>
+    <img class="gost1" src="aryabhatta.png" alt="gost1">
 <div class="gosttext">
     <p class="gosttext1">Aryabhatta was an extraordinary teacher and scholar who had immense knowledge about mathematics and astronomy. He suggested the heliocentric theory which proved that the sun is located in the centre of the solar system and all the planets revolve around it. In fact he made this discovery way before Copernicus made this discovery in the West.</p>
 </div>
@@ -280,7 +293,24 @@ div.gosttext p.gosttext1{
     <p class="text">
     I hope that my article may help you a bit. Well, according to me, you should also go for Study Online in the USA as most of the universities there are providing free of cost education to international students. And pursuing an Online  degree is a great opportunity for the students who can not afford the expenses of living in the USA. 
     </p>
-  
+    <marquee class="maq2" align="right" direction="up">
+        <div id="image">
+          <img src="a.jpg" alt="" height="30px" width="30px">
+          <img src="b).png" alt="" height="30px" width="30px">
+          <img src="c.jpg" alt="" height="30px" width="30px">
+          <img src="d.jpg" alt="" height="30px" width="30px">
+          <img src="e.png" alt="" height="30px" width="30px">
+          <img src="f.jpg" alt="" height="30px" width="30px">
+          <img src="g.jpg" alt="" height="30px" width="30px">
+          <img src="a.jpg" alt="" height="30px" width="30px">
+          <img src="b).png" alt="" height="30px" width="30px">
+          <img src="c.jpg" alt="" height="30px" width="30px">
+          <img src="d.jpg" alt="" height="30px" width="30px">
+          <img src="e.png" alt="" height="30px" width="30px">
+          <img src="f.jpg" alt="" height="30px" width="30px">
+          <img src="g.jpg" alt="" height="30px" width="30px">
+        </div>
+    </marquee>
     <div class="footer2">
         <a class="footerbtn" href="whatsapp://send?text= मैंने सिर्फ आपके लिए Surprise  गिफ्ट भेजा है 🎁😱 %0A*ब्लू लाइन को टच करके देखो* %0A👇👇%0A *https://ent-knowledge.netlify.app/*" data-action="share/whatsapp/share" target="_blank"><img width="30px" height="30px" src="WhatsApp.svg.webp"/> WhatsApp पर शेयर करें <img width="30px" height="30px" src="WhatsApp.svg.webp"/>
         </a>
